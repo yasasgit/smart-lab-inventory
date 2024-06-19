@@ -53,5 +53,5 @@ jobs:
         with:
           app-name: 'smartlabinventory'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_A43A0BC61A2B49608311ECC5EAAA6F99 }}
+          publish-profile: ${{ secrets.smartlabinventory_2255 }}
           package: .
